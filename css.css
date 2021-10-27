@@ -1,0 +1,36 @@
+.styles_header_fixed__scroll {
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+}
+.my_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.my_logo h1{
+    font-weight: bolder;
+    position: relative;
+    left: -80px;
+    background: linear-gradient(275deg, #000, rgb(178 178 178));
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+.styles_footer__centerPart>:first-child {
+    margin-right: 217px;
+}
+/* ДЛЯ ОТОБРАЖЕНИЯ БАЛАНСА И РЕВАРДСА */
+#show_after_auth {
+	/* height: 100px; */
+	display: none;
+	/* max-width: 100%; */
+}
+#connected {
+	display: none;
+	/* padding: 1px 18px 7px 18px;
+	border-radius: 100px;   
+	border: 2px solid #233342;
+	text-decoration: none;
+	margin-top: 8px;
+	background-color: transparent;
+	text-align: center; */
+}
