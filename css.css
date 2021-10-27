@@ -34,3 +34,24 @@
 	background-color: transparent;
 	text-align: center; */
 }
+
+/*main_gradient_button next styles */
+.main_gradient_button {
+    color: #fff;
+    background: -webkit-gradient(linear,left top,right top,from(#bababa),to(#3e3e3e));
+    background: -webkit-linear-gradient(left,#bababa,#3e3e3e);
+    background: -moz-linear-gradient(left,#bababa 0,#3e3e3e 100%);
+    background: linear-gradient(90deg,#bababa,#3e3e3e);
+    -webkit-box-shadow: 0 16px 64px rgb(102 91 228 / 28%);
+    box-shadow: 0 16px 64px rgb(0 0 0 / 28%);
+}
+.main_button {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
