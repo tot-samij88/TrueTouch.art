@@ -55,3 +55,10 @@
     font-weight: 700;
     cursor: pointer;
 }
+.main_button:hover{
+        -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
+    transform: scale(.98);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
